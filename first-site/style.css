@@ -1,0 +1,19 @@
+body {
+    background: darkslategrey url('img/coffee.jpg') no-repeat center fixed;
+    background-size: 300px;
+    font-family: monospace;
+}
+
+p {
+    color: chocolate;
+    background-color:cornsilk;
+    padding: 50px;
+}
+
+.special {
+    color:cadetblue;
+    background: blueviolet;
+    font-size: 150%;
+    font-family: cursive;
+    margin: 30px;
+}

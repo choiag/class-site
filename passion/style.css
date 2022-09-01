@@ -1,0 +1,22 @@
+body {
+    background: rgb(177, 171, 152) url('img/coffeedrip.jpeg') no-repeat center fixed;
+    background-size: 200px;
+    font-family: monospace;
+}
+p {
+    color: rgb(107, 67, 39);
+    background-color:cornsilk;
+    padding: 60px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.special {
+    color:rgb(225, 219, 196);
+    background: rgb(99, 69, 4);
+    font-size: 100%;
+    font-family: monotype;
+    margin: 50px;
+}
+h1 {
+    border: 5px solid rgb(238, 229, 217);
+  }
