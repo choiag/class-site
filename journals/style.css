@@ -1,0 +1,29 @@
+body {
+    color:rgb(226, 206, 184);
+    background: rgb(115, 142, 121) center fixed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align-last: center;
+}
+p {
+    color: rgb(177, 177, 177);
+    padding: 5px;
+    font-size: 90%;
+}
+.special {
+    color:rgb(74, 74, 74);
+    font-size: 80%;
+    font-family: monospace;
+    margin: 10px;
+}
+h1 {
+    font-size: 250%;
+}
+h3 {
+    color:rgb(74, 74, 74);
+    font-family: monospace;
+    font-size: 80%;
+}
+h4 {
+    color:rgb(63, 76, 66);
+    padding: 20px;
+}

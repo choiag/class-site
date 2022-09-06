@@ -1,3 +1,13 @@
 body {
-    background-color:darksalmon;
+    color:rgb(226, 206, 184);
+    background-color:rgb(129, 150, 129);
+    text-align-last: center;
+    font-family: monospace;
+    
+}
+p {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    font-size: 150%;
+    padding: 50px;
 }
