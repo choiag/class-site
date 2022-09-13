@@ -5,9 +5,14 @@ body {
     font-family: monospace;
     
 }
+h1 {
+    font-size: 600%;
+
+}
+h2 {
+    color:rgb(0, 0, 0);
+}
 p {
     color: rgb(0, 0, 0);
-    padding: 50px;
-    font-size: 150%;
-    padding: 50px;
+    font-size: 90%;
 }

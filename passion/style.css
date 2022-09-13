@@ -1,22 +1,52 @@
 body {
-    background: rgb(177, 171, 152) url('img/coffeedrip.jpeg') no-repeat center fixed;
+    background: rgb(177, 171, 152);
     background-size: 200px;
-    font-family: monospace;
+    text-align-last: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:100px;
+    padding: 30px;
 }
+
 p {
-    color: rgb(107, 67, 39);
-    background-color:cornsilk;
-    padding: 60px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.5;
+    font-size: 80%;
+    color: rgb(71, 49, 6);
+    padding: 6px;
+    text-align-last: center;
 }
 .special {
-    color:rgb(225, 219, 196);
-    background: rgb(99, 69, 4);
-    font-size: 100%;
-    font-family: monotype;
-    margin: 50px;
+    font-size: 80%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
 }
 h1 {
-    border: 5px solid rgb(238, 229, 217);
+    color: rgb(66, 43, 0);
+    font-family: monospace;
+    text-align-last: center;
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 80%;
+    font-family: monospace;
+    text-align-last:center;
+  }
+
+  ol {
+    font-size: 80%;
+    font-family: monospace;
+    text-align-last:center;
+  }
+  h3 {
+    font-size: 80%;
+    font-family: monospace;
+    text-align-last:left;
+  }
+  q {
+    padding:200px;
+    font-size: 200%;
+    font-family: monospace;
+    text-align-last: left;
+  }
+  img {
+    border: 10px solid rgb(58, 37, 9);
+    opacity: 0.8;
   }
