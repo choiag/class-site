@@ -17,7 +17,9 @@ body {
 
 .upper {
     height:40%;
-    display:ruby;
+    display:flex;
+    align-items:flex-end;
+    gap:10px;
 }
 
 .box1 {
