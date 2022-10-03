@@ -14,7 +14,7 @@ body {
     position: fixed;
     top: 30px;
     left: 100px;
-    animation: cloud 8s infinite linear;
+    animation: cloud 25s infinite linear;
 }
 
 .cloud1 {
@@ -55,7 +55,7 @@ body {
 .sky {
     position: absolute;
     height: 462px;
-    animation: sky 20s infinite linear;
+    animation: sky 15s infinite linear;
 }
 
 .ground {
@@ -63,7 +63,7 @@ body {
     left: 0;
     bottom: 0;
     height: 412px;
-    animation: sky 20s infinite linear;
+    animation: sky 15s infinite linear;
 }
 
 .bikeframe {
