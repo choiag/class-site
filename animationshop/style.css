@@ -5,9 +5,10 @@
 body {
     margin:0px;
     background-color:rgb(255, 255, 255);
-    overflow:hidden;
+    overflow: hidden;
     max-width:100vw;
     max-height:100vh;
+    
 }
 
 .clouds {
@@ -55,15 +56,19 @@ body {
 .sky {
     position: absolute;
     height: 462px;
-    animation: sky 15s infinite linear;
+    animation: sky 13s infinite linear;
+    background-image:url(image/longbackground.jpg);
+    width:100%;
 }
 
 .ground {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 412px;
-    animation: sky 15s infinite linear;
+    height: 414px;
+    animation: sky 13s infinite linear;
+    background-image:url(image/ground.jpg);
+    width:100%;
 }
 
 .bikeframe {
@@ -121,10 +126,12 @@ body {
 
 @keyframes sky {
     0% {
-        transform:translateX(100vw);
+        background-position:0 0;
+        /* transform:translateX(100vw); */
     }
     100% {
-        transform:translateX(0);
+        background-position:150% 0;
+        /* transform:translateX(0); */
     }
 }
 
