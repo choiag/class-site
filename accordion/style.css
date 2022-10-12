@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:20px;
+    background-color:rgb(255, 255, 255);
+    transition: background-color 2s;
+}
+
+img {
+    max-width:100%;
+}
+
+footer {
+    text-align: center;
+    font-size:20px;
+}
+
+.flashlighton {
+    text-align:center;
+    padding:60px;
+    margin-top:10px;
+    display:block;
+}
+
+.flashlightoff {
+    text-align:center;
+    padding:60px;
+    margin-bottom:10px;
+    display:none;
+}
+
+.chair {
+    text-align:left;
+    padding:20px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:10%;
+    left:10%;
+}
+
+.hat1 {
+    text-align:right;
+    padding:2px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:20%;
+    right:1%;
+}
+
+
+.bag1 {
+    text-align:right;
+    padding:200px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:20%;
+    right:24%;
+}
+
+.watch {
+    text-align:right;
+    padding:20px;
+    margin-bottom:100px;
+    transition: opacity 1s;
+    position:fixed;
+    top:1%;
+    right:20%;
+}
+
+
+.water {
+    text-align:left;
+    padding:30px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:50%;
+    left:60%;
+}
+
+.camera {
+    text-align:left;
+    padding:30px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:40%;
+    left:20%;
+}
+
+.sunglasses {
+    text-align:left;
+    padding:26px;
+    margin-bottom:16px;
+    transition: opacity 1s;
+    position:fixed;
+    top:10%;
+    left:25%;
+}
+
+.speaker {
+    text-align:right;
+    padding:80px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:80%;
+    right:35%;
+}
+
+.candy {
+    text-align:right;
+    padding:20px;
+    margin-bottom:60px;
+    transition: opacity 1s;
+    position:fixed;
+    bottom:5%;
+    right:50%;
+}
+
+.hat2 {
+    text-align:right;
+    padding:20px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:38%;
+    right:3%;
+}
+
+.plant {
+    text-align:right;
+    padding:2px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:35%;
+    right:60%;
+}
+
+
+.candy2 {
+    text-align:left;
+    padding:200px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    bottom:4%;
+    left:16%;
+}
+
+.teacup {
+    text-align:right;
+    padding:20px;
+    margin-bottom:100px;
+    transition: opacity 1s;
+    position:fixed;
+    top:20%;
+    right:30%;
+}
+
+
+.soap {
+    text-align:left;
+    padding:30px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:55%;
+    left:50%;
+}
+
+.bracelet {
+    text-align:right;
+    padding:30px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    bottom:75%;
+    right:26%;
+}
+
+.decor {
+    text-align:left;
+    padding:26px;
+    margin-bottom:16px;
+    transition: opacity 1s;
+    position:fixed;
+    top:82%;
+    left:30%;
+}
+
+.socks {
+    text-align:right;
+    padding:80px;
+    margin-bottom:100px;
+    transition: opacity 1s;
+    position:fixed;
+    top:10%;
+    right:10%;
+}
+
+.hairtie {
+    text-align:right;
+    padding:20px;
+    margin-bottom:6px;
+    transition: opacity 1s;
+    position:fixed;
+    top:2%;
+    right:75%;
+}
+
+.boots {
+    text-align:right;
+    padding:20px;
+    margin-bottom:100px;
+    transition: opacity 1s;
+    position:fixed;
+    bottom:2%;
+    right:1%;
+}
+
+
+.gloves2 {
+    text-align:right;
+    padding:30px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    bottom:1%;
+    right:10%;
+}
+
+.ornament {
+    text-align:left;
+    padding:30px;
+    margin-bottom:10px;
+    transition: opacity 1s;
+    position:fixed;
+    top:6%;
+    left:2%;
+}
+
+.bag2 {
+    text-align:left;
+    padding:26px;
+    margin-bottom:16px;
+    transition: opacity 1s;
+    position:fixed;
+    top:24%;
+    left:3%;
+}
+
+.speaker2 {
+    text-align:left;
+    padding:26px;
+    margin-bottom:16px;
+    transition: opacity 1s;
+    position:fixed;
+    top:18%;
+    left:20%;
+}
+
+.pillow {
+    text-align:left;
+    padding:26px;
+    margin-bottom:16px;
+    transition: opacity 1s;
+    position:fixed;
+    bottom:2%;
+    left:8%;
+}
+
+.coffee {
+    text-align:left;
+    padding:26px;
+    margin-bottom:16px;
+    transition: opacity 1s;
+    position:fixed;
+    top:45%;
+    left:1%;
+}
+
+.shoes1 {
+    text-align:left;
+    padding:26px;
+    margin-bottom:16px;
+    transition: opacity 1s;
+    position:fixed;
+    bottom:10%;
+    left:1%;
+}
+
+/* 
+    min-width = mobile-first design
+    - scalable
+    -constrained form (result is most sites now look the same)
+
+    max-width = desktop-first design
+    - more work to make responsive
+    - more diverse forms and layouts
+*/
+
+
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color:rgb(2, 2, 2);
+        font-size:100%;
+    }
+    
+    main {
+        flex-wrap:wrap;
+    }
+
+    .flashlighton {
+        display:none;
+    
+    }
+
+    .flashlightoff {
+        display:block;
+    }
+
+    .chair, .hat1, .bag1, .watch, .water, .camera, .sunglasses, .speaker, .candy, .hat2, .plant, .coffee, .shoes1, .pillow, .speaker2, .candy2, .teacup, .soap, .bracelet, .decor, .socks, .hairtie, .boots, .gloves2, .ornament, .bag2 {
+        opacity:0;
+    }
+
+}
+
+
+@media screen and (max-width:900px) {
+    body {
+        color:rgb(255, 255, 255);
+        font-size:100%;
+    }
+}
+
+
