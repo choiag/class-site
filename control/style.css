@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:10px;
+    background-color:rgb(255, 255, 255);
+    transition:background-color .5s;
+}
+
+body.dark {
+    background-color:rgb(37, 37, 37);
+}
+
+
+.flex {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+}
+
+.painting {
+    position:fixed;
+    
+}
+
+button {
+    position: relative center;
+    padding:10px;
+    border: 1px solid;
+    cursor:pointer;
+    background-color:rgb(108, 108, 108);
+    border-radius: 10px;
+    transition: background-color .2s;
+}
+
+button:hover {
+    background-color:rgb(179, 179, 179);
+}
+
+button:active {
+    background-color:white;
+}
+
+.box.glow {
+    background-color:transparent;
+    box-shadow: 0 0 10px 5px rgb(208, 89, 226);
+}
+
+.box {
+   height:572px;
+   width:765px;
+   background-color:rgb(204, 204, 203);
+   border:1px solid;
+   transition: transform 1s;
+   transition: background-color 1s, box-shadow 1s;
+}
+
+.draggable {
+    cursor:grab;
+}
+
