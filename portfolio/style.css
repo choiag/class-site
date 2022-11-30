@@ -1,0 +1,130 @@
+.addicts {
+  font-size:80%;
+  font-family:'Courier New', Courier, monospace;
+  text-align-last: center;
+  word-spacing: 40px;
+  color:rgb(11, 29, 14);
+  bottom:70px;
+ }
+ 
+ .quote {
+  top:0px;
+  font-size: 800%;
+  font-family:'Courier New', Courier, monospace;
+  word-spacing: 40px;
+  color:rgb(11, 29, 14);
+ }
+
+ .numbers {
+  padding:10px;
+  font-size:200%;
+  font-family:'Courier New', Courier, monospace;
+  text-align-last: center;
+  color:rgb(11, 29, 14);
+ }
+
+
+ .fixed {
+  position: fixed;
+  color:rgb(255, 255, 255);
+  font-size:1000%;
+  width:50%;
+  height:750px;
+  left:40%;
+  top:350px;
+} 
+
+.name {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  color:rgb(255, 255, 255);
+  font-size:15px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.name2 {
+  position: fixed;
+  top: 28px;
+  left: 38px;
+  color:rgb(255, 255, 255);
+  font-size:15px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.contact {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color:rgb(255, 255, 255);
+  font-size:15px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.work {
+  position: fixed;
+  top: 10px;
+  left: 100px;
+  color:rgb(255, 255, 255);
+  font-size:15px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.about {
+  position: fixed;
+  top: 10px;
+  right: 100px;
+  color:rgb(255, 255, 255);
+  font-size:15px;
+  font-family:'Courier New', Courier, monospace;
+}
+p {
+    font-size: 100%;
+    color: rgb(244, 228, 195);
+    padding: 6px;
+    text-align-last: center;
+    padding:100px;
+}
+
+.special {
+    font-size: 80%;
+    font-family:'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+
+h1 {
+    color:rgb(11, 29, 14);
+    font-family:'Courier New', Courier, monospace;
+    text-align-last:center;
+    font-size: 20px;
+  }
+
+ol {
+    font-size: 90%;
+    font-family:'Courier New', Courier, monospace;
+    text-align-last:center;
+    color:rgb(11, 29, 14);
+
+  }
+
+body {
+	background: linear-gradient(-45deg, #ffffff, #c9a3e6, #a140be, #cf3a87);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
