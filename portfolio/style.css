@@ -136,9 +136,9 @@ body {
   transition: right .5s;
 }
 
-.active {
+/* .active {
   right:0;
-}
+} */
 
 button {
   border: 1px solid;
