@@ -1,11 +1,4 @@
-.addicts {
-  font-size:80%;
-  font-family:'Courier New', Courier, monospace;
-  text-align-last: center;
-  word-spacing: 40px;
-  color:rgb(11, 29, 14);
-  bottom:70px;
- }
+
  
  .quote {
   top:0px;
@@ -24,7 +17,7 @@
  }
 
 
- .fixed {
+ .agc {
   position: fixed;
   color:rgb(255, 255, 255);
   font-size:1000%;
@@ -78,6 +71,7 @@
   font-size:15px;
   font-family:'Courier New', Courier, monospace;
 }
+
 p {
     font-size: 100%;
     color: rgb(244, 228, 195);
@@ -90,8 +84,22 @@ p {
     font-size: 80%;
     font-family:'Courier New', Courier, monospace;
     margin: 10px;
+    color:white;
+    text-align-last:center;
 }
 
+.blizzard {
+    position: relative;
+}
+
+.boogie {
+    left: 2px;
+    position: relative;
+}
+
+.draggable {
+  cursor:grab;
+}
 
 h1 {
     color:rgb(11, 29, 14);
@@ -113,6 +121,42 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 50s ease infinite;
 	height: 100vh;
+}
+
+.box {
+  background-color: slategray;
+  color:rgb(245, 187, 245);
+  font-size: 20px;
+  height:100vh;
+  position:fixed;
+  top:0;
+  right:-300px;
+  width:300px;
+  border-left:1px solid;    
+  transition: right .5s;
+}
+
+.active {
+  right:0;
+}
+
+button {
+  border: 1px solid;
+  cursor:pointer;
+  background-color:thistle;
+  border-radius: 5px;
+  transition: background-color .2s;
+  right: 22px;
+  position: absolute;
+  top: 10px;
+}
+
+button:hover {
+  background-color:pink;
+}
+
+button:active {
+  background-color:white;
 }
 
 @keyframes gradient {

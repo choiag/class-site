@@ -3,29 +3,46 @@
     <head>
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
-        <p class="special">I find the process of coffee drip meditative and therapeutic. I do this as much as I can as a time of rest and focus. This helps relieve any stress, smelling and tasting the rich coffee.</p>
+        <p class="special">Welcome.</p>
     </head>
     
-    <div class="addicts">text</div> 
-    <div class="quote">text</div>
-    <div class="numbers">text</div> 
+  
     <body>
         <div class="flex">
             <div class="background"></div>
         </div>
 
-        <div class="box fixed">AGC</div>
-        <img src="img/coffeedrip.png" width="400px" alt="coffee beans">
+        <div class="agc">AGC</div>
         
         <div class="name">Ashley</div>
         <div class="name2">Choi</div>
         <div class="work"><a href="https://www.rostovs.com"> Work</a></div>
         <div class="about"><a href="https://www.rostovs.com"> About Me</a></div>
         <div class="contact"><a href="https://www.rostovs.com"> Contact</a></div>
-
-        <div class="d-flex flex-column justify-content-center w-100 h-100">
-        </div>
         
+        <button onclick="boxToggle()">Contact</button>
+        <div id="box" class="box active">
+        the box
+        </div>
+        <script>
+            function boxToggle() {
+            var box = document.getElementById("box");
+
+            box.classList.toggle("active");
+            }
+        </script>
+       
+        <div class="flex">
+
+            <div class="box draggable"></div><img class="blizzard draggable" src="images/craft/PhotoRoom_20221201_204908.png" width="600px" height="600px" alt="blizzard book">
+            
+            <div class="box draggable"></div><img class="boogie draggable" src="images/craft/boogie.png" width="600px" height="600px" alt="blizzard book">
+        </div>
+
+        <script src="jquery-3.6.1.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="scripts.js"></script>
+
     </body>
     
 </html
