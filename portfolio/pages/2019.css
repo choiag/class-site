@@ -1,3 +1,7 @@
+body {
+  max-width: fit-content;
+}
+
 #gallery {
   line-height:0;
   -webkit-column-count:5; /* split it into 5 columns */
@@ -6,12 +10,13 @@
   -moz-column-gap:5px;
   column-count:2;
   column-gap:40px;
+
 }
 
 #gallery img {
-  width: 100% !important;
-  height: auto !important;
-  margin-bottom:5px; /* to match column gap */
+  width: 50% !important;
+  height: 20% !important;
+  margin: 10px; /* to match column gap */
 }
 
 @media (max-width: 1000px) {

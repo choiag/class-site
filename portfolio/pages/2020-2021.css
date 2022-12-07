@@ -1,3 +1,5 @@
+
+
 #gallery {
     line-height:0;
     -webkit-column-count:5; /* split it into 5 columns */
@@ -9,9 +11,10 @@
   }
   
   #gallery img {
-    width: 100% !important;
-    height: auto !important;
-    margin-bottom:40px; /* to match column gap */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
 
   @media (max-width: 1000px) {
