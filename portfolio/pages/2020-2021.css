@@ -11,9 +11,9 @@
   #gallery img {
     width: 100% !important;
     height: auto !important;
-    margin-bottom:5px; /* to match column gap */
+    margin-bottom:40px; /* to match column gap */
   }
-  
+
   @media (max-width: 1000px) {
     #gallery {
      -moz-column-count:    3;
@@ -22,7 +22,7 @@
     }
   }
   
-  /* @media (max-width: 800px) {
+  @media (max-width: 800px) {
     #gallery {
      -moz-column-count:    2;
      -webkit-column-count: 2;

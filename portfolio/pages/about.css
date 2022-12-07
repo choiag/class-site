@@ -1,0 +1,46 @@
+
+   .first {
+    position: fixed;
+    color:rgb(255, 255, 255);
+    font-size:800%;
+    width:50%;
+    height:750px;
+    left:25%;
+    top:50px;
+  } 
+  
+  .second {
+    position: fixed;
+    color:rgb(255, 255, 255);
+    font-size:800%;
+    width:50%;
+    height:750px;
+    left:25%;
+    top:140px;
+  } 
+  
+  p {
+      font-size: 100%;
+      color: rgb(244, 228, 195);
+      text-align: left justify;
+      text-align-last: left;
+      max-width: 400px;
+      display: inline-block;
+  }
+  
+  .special {
+      font-size: 90%;
+      font-family:'Courier New', Courier, monospace;
+      margin: 10px;
+  }
+
+    body {
+      background:#a140be;
+      background-size: 200px;
+      text-align-last: center;
+      position: relative;
+      top: 400px; 
+  }
+  
+  
+  

@@ -1,0 +1,80 @@
+
+  body {
+    background:#cf3a87;
+}
+
+  form {
+    /* Center the form on the page */
+    margin: 40px;
+    width: 400px;
+    /* Form outline */
+    padding: 4em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    font-style: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 540px;
+    top:250px
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+       font-family:'Courier New', Courier, monospace;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 766px;
+    top: 250px;
+    position: relative; /* same size as the label elements */
+    font-family:'Courier New', Courier, monospace;
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  
