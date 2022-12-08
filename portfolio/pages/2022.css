@@ -8,7 +8,10 @@
 .column {
   flex: 50%;
   max-width: 25%;
-  padding: 70px;
+}
+
+.columns {
+  padding: 90px;
 }
 
 .column img {

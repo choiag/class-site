@@ -10,6 +10,10 @@
     column-gap:40px;
     padding: 70px;
   }
+
+  .gallerys {
+    padding:70px;
+  }
   
   #gallery img {
     display: block;
